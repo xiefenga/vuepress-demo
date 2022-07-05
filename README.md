@@ -1,3 +1,4 @@
-run `test:dev` or `test:build` script can reproduce the problem 
 
-then command `demo` runs the script bin.ts 
+this repo is the source code of `vuepress-demo`, but add the depedency `vuepress-demo` to reproduce bug
+
+run `test:dev` or `test:build` script can reproduce the problem 

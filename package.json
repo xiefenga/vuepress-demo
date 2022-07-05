@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-demo",
+  "version": "0.0.4",
+  "license": "MIT",
+  "bin": {
+    "demo": "./bin.js"
+  },
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "test:dev": "demo dev ./demo-config",
+    "test:build": "demo build ./demo-config"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "typescript": "^4.7.4",
+    "vuepress-demo": "^0.0.4"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "vuepress": "^2.0.0-beta.48"
+  }
+}

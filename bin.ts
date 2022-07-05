@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { resolve } from 'node:path'
-
 import { program } from 'commander'
 import { createBuild, createDev } from 'vuepress'
 
@@ -13,7 +11,6 @@ const loadConfig = (path: string) => {
   console.log('cwd:', process.cwd())
   try {
     return module.require(
-      // resolve(__dirname, './demo-config')
       path
     )
   } catch (error) {
